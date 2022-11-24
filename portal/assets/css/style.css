@@ -1394,7 +1394,11 @@ section {
 --------------------------------*/
 #mission {
   position: relative;
-    padding: 260px 0 290px 0;
+  /* padding: 250px 0 200px 0; */
+  height: 125vh;
+  display: flex;
+  /* justify-content: center; */
+  align-items: center;
 }
 
 #mission .bgvid {

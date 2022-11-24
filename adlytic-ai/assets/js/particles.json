@@ -1,0 +1,79 @@
+{
+  "particles":{
+    "number":{
+      "value":100
+    },
+    "color":{
+      "value":"#fff"
+    },
+    "shape":{
+      "type":"circle",
+      "stroke":{
+        "width":1,
+        "color":"#ccc"
+      },
+      "image":{
+        "src":"assets/img/heatmap-icon.png"
+      }
+    },
+    "opacity":{
+      "value":0.5,
+      "random":true,
+      "anim":{
+        "enable":false,
+        "speed":1
+      }
+    },
+    "size":{
+      "value": 3,
+      "random":false,
+      "anim":{
+        "enable": false,
+        "speed":30
+      }
+    },
+    "line_linked":{
+      "enable": true,
+      "distance": 120,
+      "color":"#fff",
+      "width":1
+    },
+    "move":{
+      "enable":true,
+      "speed":2,
+      "direction":"none",
+      "straight":false
+    }
+  },
+  "interactivity":{
+    "events":{
+      "onhover":{
+        "enable":true,
+        "mode":"grab"
+      },
+      "onclick":{
+        "enable": true,
+        "mode":"push"
+      }
+    },
+    "modes":{
+      "repulse":{
+        "distance":50,
+        "duration":0.4
+      },
+      "grab": {
+        "distance": 200,
+        "line_linked": {
+          "opacity": 1
+        }
+      },
+      "bubble":{
+        "distance":100,
+        "size":10
+      },
+      "push": {
+        "particles_nb": 4
+      }
+    }
+  }
+}

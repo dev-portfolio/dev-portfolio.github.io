@@ -707,14 +707,14 @@ section {
 .vision {
 	background: url("../../assets/img/vision.png") no-repeat;
 	background-size: cover;
-  height: 100vh;
+  height: auto;
 }
 
 .vision .img-adjust {
   position: relative;
   left: 21rem;
   width: 50%;
-  bottom: 2rem;
+  bottom: 3rem;
 }
 
 .vision .img-fluid {
@@ -722,10 +722,10 @@ section {
 }
 
 .vision .content-adjust {
-  width: 80%;
+  width: 92%;
   text-align: justify;
   position: absolute;
-  top: 10rem;
+  top: 7rem;
 }
 
 .vision .arrow-pos {
@@ -748,7 +748,8 @@ section {
 
 .mission {
 	background: url("../../assets/img/mission-bg.png") no-repeat;
-    background-size: cover;
+  background-size: cover;
+  height: auto;
 }
 
 .mission .img-fluid {
