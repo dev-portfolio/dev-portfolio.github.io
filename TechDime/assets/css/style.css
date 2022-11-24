@@ -574,7 +574,7 @@ section {
 .about {
   background: #466393;
   background-size: cover;
-  height: 100vh;
+  height: auto;
   position: relative;
   color: #fff;
 }
