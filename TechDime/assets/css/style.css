@@ -430,7 +430,7 @@ h6 {
 --------------------------------------------------------------*/
 #hero {
   width: 100%;
-  height: 100vh;
+  height: auto;
   background: url("../../assets/img/background_cover.png") no-repeat;
   background-size: cover;
   text-align: center;
@@ -574,7 +574,7 @@ section {
 .about {
   background: #466393;
   background-size: cover;
-  height: 100vh;
+  height: auto;
   position: relative;
   color: #fff;
 }
@@ -641,6 +641,101 @@ section {
   .about {
     text-align: center;
   }
+
+  #about p{
+    margin: 0 !important;
+    padding: 0 !important;
+  }
+
+  #vision p{
+    margin: 0 !important;
+    padding: 0 !important;
+  }
+
+  .vision .content-adjust {
+    padding: 0 !important;
+    position: relative !important;
+    top: 3rem !important;
+  }
+
+  .vision .img-adjust {
+    display: none !important;
+  }
+
+  .vision .arrow-pos {
+    position: relative;
+    /* bottom: 5rem; */
+    top: 5rem;
+  }
+
+  #mission p{
+    margin: 0 !important;
+    padding: 0 !important;
+  }
+
+  .mission .content-adjust {
+    padding: 0 !important;
+
+  }
+
+  .mission .content .mission_txt {
+    width: 100% !important;
+  }
+
+  
+  .contact .form-control {
+    width: 100% !important;
+  }
+}
+
+
+@media screen and (min-device-width: 768px)
+and (max-device-width: 1024px) {
+  #about p{
+    margin: 0 !important;
+    padding: 0 !important;
+  }
+
+  #vision p{
+    margin: 0 !important;
+    padding: 0 !important;
+  }
+
+  .vision .content-adjust {
+    padding: 0 !important;
+    position: relative !important;
+    top: 3rem !important;
+
+  }
+
+  .vision .img-adjust {
+    display: none !important;
+  }
+
+  .vision .arrow-pos {
+    position: relative;
+    /* bottom: 5rem; */
+    top: 5rem;
+  }
+
+  #mission p{
+    margin: 0 !important;
+    padding: 0 !important;
+  }
+
+  .mission .content-adjust {
+    padding: 0 !important;
+
+  }
+
+  
+  .mission .content .mission_txt {
+    width: 100% !important;
+  }
+
+  .contact .form-control {
+    width: 100% !important;
+  }
 }
 
 /*--------------------------------------------------------------
@@ -649,7 +744,7 @@ section {
 .features {
   background: url("../../assets/img/about-bg.png") no-repeat;
   background-size: cover;
-  height: 100vh;
+  height: auto;
 }
 
 .features .content+.content {
@@ -707,7 +802,7 @@ section {
 .vision {
 	background: url("../../assets/img/vision.png") no-repeat;
 	background-size: cover;
-  height: 100vh;
+  height: auto;
 }
 
 .vision .img-adjust {
@@ -722,15 +817,15 @@ section {
 }
 
 .vision .content-adjust {
-  width: 80%;
+  width: 93%;
   text-align: justify;
   position: absolute;
-  top: 10rem;
+  top: 8rem;
 }
 
 .vision .arrow-pos {
   position: relative;
-  bottom: 5rem;
+  /* bottom: 5rem; */
 }
 
 .vision .arrow-down {
@@ -781,7 +876,7 @@ section {
 --------------------------------------------------------------*/
 
 #contact {
-  height: 100vh;
+  height: auto;
 	display: flex;
   align-items: center;
 }
