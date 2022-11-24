@@ -817,10 +817,10 @@ and (max-device-width: 1024px) {
 }
 
 .vision .content-adjust {
-  width: 93%;
+  width: 83%;
   text-align: justify;
   position: absolute;
-  top: 8rem;
+  top: 10rem;
 }
 
 .vision .arrow-pos {
