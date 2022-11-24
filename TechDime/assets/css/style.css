@@ -649,7 +649,7 @@ section {
 .features {
   background: url("../../assets/img/about-bg.png") no-repeat;
   background-size: cover;
-  height: 100vh;
+  height: auto;
 }
 
 .features .content+.content {
